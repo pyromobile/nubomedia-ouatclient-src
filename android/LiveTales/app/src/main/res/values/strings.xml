@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Live Tales</string>
+    <string name="splas_screen_name">logo_splash_screen</string>
+    <string name="empty"></string>
+
+    <!-- Main View -->
+    <string name="main_view_login">Login</string>
+    <string name="main_view_tale_mode">Tale Mode</string>
+    <string name="main_view_free_mode">Free Mode</string>
+    <string name="main_view_friends_invite_message">Your friends have invited you to join a session!</string>
+    <string name="main_view_go">Go!</string>
+
+    <!-- Login-Signup View -->
+    <string name="login_signup_view_user">User</string>
+    <string name="login_signup_view_password">Password</string>
+    <string name="login_signup_view_repeat_password">Repeat Password</string>
+    <string name="login_signup_view_login">Log In</string>
+    <string name="login_signup_view_signup">Sign Up</string>
+
+    <!-- Loby Tale Mode View -->
+    <string name="lobby_tale_mode_view_choose_a_tale">Choose a tale</string>
+    <string name="lobby_tale_mode_view_library">Library</string>
+    <string name="lobby_tale_mode_view_choose_your_friends">Choose your friends</string>
+    <string name="lobby_tale_mode_view_begin">Begin!</string>
+
+</resources>

@@ -1,0 +1,17 @@
+{
+  "id":"02_l3c",
+  "title":"The Three Little Pigs",
+  "isBook":true,
+  "cover":"",
+  "langs":{
+    "de":{
+      "title":"Die drei Schweinchen"
+    },
+    "en":{
+      "title":"The Three Little Pigs"
+    },
+    "es":{
+      "title":"Los tres cerditos"
+    }
+  }
+}

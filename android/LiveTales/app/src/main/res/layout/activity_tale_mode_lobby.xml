@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tale_mode_lobby"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zed.livetales.TaleModeLobbyActivity">
+
+    <!-- header -->
+    <!-- header image -->
+    <ImageView
+        android:id="@+id/headerImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/empty"
+        app:srcCompat="@mipmap/bg_header_riding_hood"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:adjustViewBounds="true" />
+
+    <!-- back button -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/empty"
+        app:srcCompat="@mipmap/btn_next_available"
+        app:layout_constraintTop_toTopOf="@+id/headerImageView"
+        app:layout_constraintLeft_toLeftOf="@+id/headerImageView"
+        app:layout_constraintRight_toRightOf="@+id/headerImageView"
+        app:layout_constraintBottom_toBottomOf="@+id/headerImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:scaleX="-1"
+        android:backgroundTint="@android:color/transparent"
+        android:adjustViewBounds="true" />
+
+    <!-- header label -->
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/lobby_tale_mode_view_choose_a_tale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/empty"
+        app:layout_constraintTop_toTopOf="@+id/headerImageView"
+        app:layout_constraintRight_toRightOf="@+id/headerImageView"
+        app:layout_constraintLeft_toLeftOf="@+id/headerImageView"
+        app:layout_constraintBottom_toBottomOf="@+id/headerImageView"
+        android:textSize="20sp"
+        android:textColor="#8A4702"
+        android:textStyle="normal|bold"/>
+
+    <!-- contents -->
+    <!-- library content -->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/libraryConstraintLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/footerImageView"
+        app:layout_constraintTop_toBottomOf="@+id/headerImageView"
+        app:layout_constraintRight_toRightOf="@+id/friendsConstraintLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_width="710dp"
+        android:layout_height="570dp">
+
+        <!-- image background -->
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_height="568dp"
+            android:layout_width="710dp"
+            android:contentDescription="@string/empty"
+            app:srcCompat="@mipmap/bg_library"
+            android:adjustViewBounds="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:text="@string/lobby_tale_mode_view_library"
+            android:layout_width="716dp"
+            android:contentDescription="@string/empty"
+            app:layout_constraintTop_toTopOf="@+id/imageView7"
+            app:layout_constraintRight_toRightOf="@+id/imageView7"
+            app:layout_constraintLeft_toLeftOf="@+id/imageView7"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textColor="#8A4702"
+            android:background="#E3A74E"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:gravity="center"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <!-- friends content -->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/friendsConstraintLayout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/footerImageView"
+        app:layout_constraintTop_toBottomOf="@+id/headerImageView"
+        android:layout_height="570dp"
+        android:layout_width="312dp">
+
+        <!-- image background -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/empty"
+            app:srcCompat="@mipmap/bg_sidebar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView9" />
+
+        <!-- label -->
+        <TextView
+            android:id="@+id/textView3"
+            android:text="@string/lobby_tale_mode_view_choose_your_friends"
+            android:contentDescription="@string/empty"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textColor="#E3A74E"
+            android:textAlignment="center"
+            android:background="#8A4702"
+            android:layout_height="45dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="@+id/imageView9"
+            app:layout_constraintLeft_toLeftOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/imageView9" />
+    </android.support.constraint.ConstraintLayout>
+
+    <!-- footer -->
+    <!-- image footer -->
+    <ImageView
+        android:id="@+id/footerImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/empty"
+        app:srcCompat="@mipmap/bg_footer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:adjustViewBounds="true" />
+
+    <!-- begin button -->
+    <com.zed.livetales.customviews.CustomButtonView
+        android:id="@+id/beginButton"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/empty"
+        android:background="@drawable/button_gui_normal"
+        android:text="@string/lobby_tale_mode_view_begin"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="@+id/footerImageView"
+        app:layout_constraintLeft_toLeftOf="@+id/footerImageView"
+        app:layout_constraintTop_toTopOf="@+id/footerImageView"
+        app:layout_constraintBottom_toBottomOf="@+id/footerImageView"
+        app:layout_constraintVertical_bias="0.73"
+        android:textAllCaps="false" />
+
+</android.support.constraint.ConstraintLayout>

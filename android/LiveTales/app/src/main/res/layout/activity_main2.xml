@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zed.livetales.Main2Activity">
+
+    <ImageView
+        android:id="@+id/topImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/empty"
+        app:srcCompat="@mipmap/bg_header_main"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.zed.livetales.customviews.CustomButtonView
+        android:id="@+id/loginButton" style="@android:style/Widget.Button"
+        android:text="@string/main_view_login"
+        android:background="@drawable/button_gui_normal"
+        android:height="35dp"
+        android:width="186dp"
+        android:layout_width="186dp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/topImageView"
+        app:layout_constraintTop_toTopOf="@+id/topImageView"
+        app:layout_constraintRight_toRightOf="@+id/topImageView"
+        app:layout_constraintLeft_toLeftOf="@+id/topImageView"
+        app:layout_constraintHorizontal_bias="0.88" />
+
+    <com.zed.livetales.customviews.CustomButtonView
+        android:id="@+id/taleModeButton" style="@android:style/Widget.Button"
+        android:text="@string/main_view_tale_mode"
+        android:gravity="center"
+        android:background="@drawable/button_gui_main_normal"
+        android:height="350dp"
+        android:width="75dp"
+        android:layout_height="75dp"
+        android:layout_width="350dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topImageView"
+        app:layout_constraintBottom_toTopOf="@+id/footerImageView"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <com.zed.livetales.customviews.CustomButtonView
+        android:id="@+id/freeModeButton" style="@android:style/Widget.Button"
+        android:text="@string/main_view_free_mode"
+        android:gravity="center"
+        android:background="@drawable/button_gui_main_normal"
+        android:height="350dp"
+        android:width="75dp"
+        android:layout_height="75dp"
+        android:layout_width="350dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topImageView"
+        app:layout_constraintBottom_toBottomOf="@+id/footerImageView"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="1024dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topImageView"
+        app:layout_constraintBottom_toTopOf="@+id/footerImageView"
+        app:layout_constraintVertical_bias="0.95">
+
+        <ImageView
+            android:id="@+id/joinSessionImageView"
+            android:height="104dp"
+            android:width="505dp"
+            android:layout_height="104dp"
+            android:layout_width="505dp"
+            android:contentDescription="@string/empty"
+
+            app:srcCompat="@mipmap/btn_join_session"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <com.zed.livetales.customviews.CustomTextView
+            android:id="@+id/inviteTextView"
+            android:text="@string/main_view_friends_invite_message"
+            android:layout_width="461dp"
+            android:layout_height="34dp"
+            app:layout_constraintBottom_toBottomOf="@+id/joinSessionImageView"
+            app:layout_constraintTop_toTopOf="@+id/joinSessionImageView"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#601E00"
+            app:layout_constraintRight_toRightOf="@+id/joinSessionImageView"
+            app:layout_constraintLeft_toLeftOf="@+id/joinSessionImageView" />
+
+        <com.zed.livetales.customviews.CustomButtonView
+            android:id="@+id/invitesButton"
+            android:text="@string/main_view_go"
+            android:gravity="center"
+            android:height="37dp"
+            android:width="187dp"
+            android:layout_height="48dp"
+            android:layout_width="187dp"
+            android:background="@drawable/button_gui_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.63"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintRight_toRightOf="@+id/joinSessionImageView"
+            app:layout_constraintLeft_toLeftOf="@+id/joinSessionImageView"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:id="@+id/notificationImageView"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            app:srcCompat="@mipmap/bg_not"
+            android:contentDescription="@string/empty"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.75" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/footerImageView"
+        app:srcCompat="@mipmap/bg_footer"
+        android:contentDescription="@string/empty"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_width="0dp" />
+
+    <Button
+        android:id="@+id/friendsButton"
+        android:text="@string/empty"
+        android:background="@mipmap/btn_friends"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/footerImageView"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/topImageView"
+        app:layout_constraintVertical_bias="0.96"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
+    <Button
+        android:id="@+id/infoButton"
+        android:text="@string/empty"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/btn_info"
+        android:layout_marginStart="40dp"
+        app:layout_constraintTop_toTopOf="@+id/friendsButton"
+        app:layout_constraintLeft_toRightOf="@+id/friendsButton"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:id="@+id/libraryButton"
+        android:text="@string/empty"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/btn_library"
+        app:layout_constraintRight_toLeftOf="@+id/friendsButton"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/friendsButton"
+        android:layout_marginRight="40dp" />
+
+
+</android.support.constraint.ConstraintLayout>

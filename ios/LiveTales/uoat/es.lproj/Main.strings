@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "Credits"; ObjectID = "2BO-lY-8hz"; */
+"2BO-lY-8hz.normalTitle" = "Creditos";
+
+/* Class = "UIButton"; normalTitle = "Little Red Riding Hood"; ObjectID = "5MM-nB-dbu"; */
+"5MM-nB-dbu.normalTitle" = "Caperucita Roja";
+
+/* Class = "UILabel"; text = "Main Menu"; ObjectID = "BeV-02-rfg"; */
+"BeV-02-rfg.text" = "Menu Principal";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "J94-N6-7rR"; */
+"J94-N6-7rR.text" = "Idioma";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "MgG-Ga-8lH"; */
+"MgG-Ga-8lH.title" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Collections"; ObjectID = "NYx-aq-y8x"; */
+"NYx-aq-y8x.normalTitle" = "Colecciones";
+
+/* Class = "UIButton"; normalTitle = "Tale Mode"; ObjectID = "SCm-uN-mG1"; */
+"SCm-uN-mG1.normalTitle" = "Modo Cuento";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "SVF-c1-xFv"; */
+"SVF-c1-xFv.normalTitle" = "Inglés";
+
+/* Class = "UIButton"; normalTitle = "Free Mode"; ObjectID = "TER-ev-Y8T"; */
+"TER-ev-Y8T.normalTitle" = "Modo Libre";
+
+/* Class = "UILabel"; text = "Library"; ObjectID = "UOj-V4-jsH"; */
+"UOj-V4-jsH.text" = "Biblioteca";
+
+/* Class = "UIButton"; normalTitle = "Friends"; ObjectID = "VdF-vF-3J9"; */
+"VdF-vF-3J9.normalTitle" = "Amigos";
+
+/* Class = "UILabel"; text = "Sound"; ObjectID = "Wug-3N-ro4"; */
+"Wug-3N-ro4.text" = "Sonidos";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "X0u-3P-V5c"; */
+"X0u-3P-V5c.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Font Size"; ObjectID = "dlE-KG-w9Z"; */
+"dlE-KG-w9Z.text" = "Tamaño Fuente";
+
+/* Class = "UIButton"; normalTitle = "Goldilocks And The Three Bears"; ObjectID = "gdq-lY-kK7"; */
+"gdq-lY-kK7.normalTitle" = "Ricitos de Oro";
+
+/* Class = "UIButton"; normalTitle = "Spanish"; ObjectID = "i8o-Ic-j6B"; */
+"i8o-Ic-j6B.normalTitle" = "Español";
+
+/* Class = "UINavigationItem"; title = "Choose a tale"; ObjectID = "kDK-Oh-bBK"; */
+"kDK-Oh-bBK.title" = "Elige un cuento";
+
+/* Class = "UIButton"; normalTitle = "The Three Little Pigs"; ObjectID = "mPv-sr-pO0"; */
+"mPv-sr-pO0.normalTitle" = "Los Tres Cerditos";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "vda-52-41p"; */
+"vda-52-41p.normalTitle" = "Configuración";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "wGg-9V-IXa"; */
+"wGg-9V-IXa.normalTitle" = "Registrarse";
+
+/* Class = "UINavigationItem"; title = "Select Language"; ObjectID = "xwI-sC-5pj"; */
+"xwI-sC-5pj.title" = "Selecciona Idioma";
