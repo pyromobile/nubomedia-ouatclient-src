@@ -1,0 +1,1 @@
+link ../../../KurentoToolbox/Classes/Room/NBMRoomClient.h

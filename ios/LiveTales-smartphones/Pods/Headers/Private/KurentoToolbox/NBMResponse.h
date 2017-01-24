@@ -1,0 +1,1 @@
+link ../../../KurentoToolbox/Classes/JSON-RPC/NBMResponse.h
