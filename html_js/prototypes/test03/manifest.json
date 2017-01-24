@@ -1,0 +1,19 @@
+{
+  "name": "Hello World!",
+  "description": "My first Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "icons": { "72": "icon.png", "72": "icon.png" },
+  "content_security_policy":"default-src 'self''unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src ws: wss:; media-src 'self' blob:; object-src 'self'",
+  "permissions": [
+        "<all_urls>",
+        "notifications",
+        "storage",
+        "videoCapture"
+  ]
+}

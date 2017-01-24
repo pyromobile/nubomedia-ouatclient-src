@@ -1,0 +1,48 @@
+/* containers */
+.settingsBackContent {
+	position: absolute;
+	top: 0;
+	left: 2%;
+	height: 10%;
+	width: 100%;
+}
+
+.settingsMenuOptionsContent {
+  position: absolute;
+  top: 50%; left: 50%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);
+  height: 45%;
+}
+
+.settingsItem1{
+  position: absolute;
+  left:5%;
+  top:0;
+  height:20%;
+}
+.settingsItem2{
+  position: absolute;
+  left:5%;
+  top:20%;
+  height:20%;
+}
+.settingsItem3{
+  position: absolute;
+  left:5%;
+  top:40%;
+  height:20%;
+}
+.settingsItem4{
+  position: absolute;
+  left:5%;
+  top:60%;
+  height:20%;
+}
+.settingsItem5{
+  position: absolute;
+  left:5%;
+  top:80%;
+  height:20%;
+}

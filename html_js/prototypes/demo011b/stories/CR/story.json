@@ -1,0 +1,28 @@
+{
+  "story":[
+    {
+      "image":0,
+      "texts":["idText1","idText2","idText3"]
+    },
+    {
+      "image":1,
+      "texts":["idText4","idText5","idText6","idText7"]
+    },
+    {
+      "image":2,
+      "texts":["idText8","idText9","idText10"]
+    },
+    {
+      "image":3,
+      "texts":["idText11","idText12","idText13","idText14"]
+    },
+    {
+      "image":4,
+      "texts":["idText15","idText16","idText17"]
+    },
+    {
+      "image":5,
+      "texts":["idText18","idText19"]
+    }
+  ]
+}

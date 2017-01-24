@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self' 'unsafe-inline';
+			 				 style-src 'self' 'unsafe-inline';
+							 connect-src ws: wss:;
+							 media-src 'self' blob:;
+							 object-src 'self'">
+
+<link rel="styleSheet" href="style.css" type="text/css" media="screen">
+
+<script type="text/javascript">
+	navigator.getUserMedia = ( navigator.getUserMedia ||
+                    navigator.webkitGetUserMedia ||
+                    navigator.mozGetUserMedia ||
+					navigator.msGetUserMedia);
+	window.getUserMedia = navigator.getUserMedia.bind(navigator);
+</script>
+
+<script src="bower_components/adapter.js/adapter.js"></script>
+<script src="./js/kurento-utils.js"></script>
+<script src="./js/tale.js"></script>
+<script src="./js/conferenceroom.js"></script>
+<script src="./js/participant.js"></script>
+
+</head>
+<body>
+	<div id="container">
+		<div id="wrapper">
+			<div id="join" class="animate join">
+				<h1>Join a Room</h1>
+				<form onsubmit="return false;" accept-charset="UTF-8">
+					<p>
+						<input type="text" name="name" value="" id="name"
+							placeholder="Username" required>
+					</p>
+					<p>
+						<input type="text" name="room" value="" id="roomName"
+							placeholder="Room" required>
+					</p>
+					<p class="submit">
+						<input type="button" name="create" value="Create!" onClick="register('create')">
+						<input type="button" name="join" value="Join!" onClick="register('join')">
+					</p>
+				</form>
+			</div>
+			<div id="room" style="display: none;">
+				<h2 id="room-header"></h2>
+				<div id="participants"></div>
+				<input type="button" id="button-leave" onmouseup="leaveRoom();"
+					value="Leave room">
+
+				<div id="tale">
+					<div id="taleText"></div>
+					<div id="taleNavButtons">
+						<button onclick="talePrev()">Prev</button>
+						<button onclick="taleNext()">Next</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

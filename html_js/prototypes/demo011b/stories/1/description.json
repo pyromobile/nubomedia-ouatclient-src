@@ -1,0 +1,13 @@
+{
+  "id":"1",
+  "title":"title",
+  "cover":"",
+  "langs":{
+    "en":{
+      "title":"The three little pigs"
+    },
+    "es":{
+      "title":"Los tres cerditos"
+    }
+  }
+}

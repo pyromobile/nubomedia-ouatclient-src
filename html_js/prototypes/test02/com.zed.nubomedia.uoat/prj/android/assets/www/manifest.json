@@ -1,0 +1,34 @@
+{
+  "name": "com.zed.nubomedia.uoat",
+  "short_name": "uoat",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "index.html",
+  "xwalk_app_version": "0.1",
+  "xwalk_command_line": "",
+  "xwalk_package_id": "com.zed.nubomedia.uoat",
+  "xwalk_target_platforms": [
+    "android"
+  ],
+  "xwalk_android_animatable_view": false,
+  "xwalk_android_keep_screen_on": false,
+  "xwalk_android_permissions": [
+    "ACCESS_NETWORK_STATE",
+    "ACCESS_WIFI_STATE",
+    "INTERNET",
+	"CAMERA",
+	"RECORD_VIDEO",
+	"RECORD_AUDIO",
+	"MODIFY_AUDIO_SETTINGS",
+	"BLUETOOTH",
+	"WRITE_EXTERNAL_STORAGE"
+  ],
+  "xwalk_windows_update_id": "05643588-6071-9949-6137-998187914491",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "72x72"
+    }
+  ]
+}

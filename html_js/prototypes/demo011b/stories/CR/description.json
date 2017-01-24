@@ -1,0 +1,13 @@
+{
+  "id":"CR",
+  "title":"title",
+  "cover":"",
+  "langs":{
+    "en":{
+      "title":"Little red riding hood"
+    },
+    "es":{
+      "title":"Caperucita roja"
+    }
+  }
+}

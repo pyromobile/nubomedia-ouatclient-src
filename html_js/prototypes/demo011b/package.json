@@ -1,0 +1,49 @@
+{
+  "name": "demo011b",
+  "version": "1.0.0",
+  "description": "Uso de routes para navegacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "author": "playwireless development group",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "core-js": "^2.1.1",
+    "form-data": "^0.2.0",
+    "fs": "0.0.2",
+    "json-loader": "^0.5.4",
+    "md5": "^2.0.0",
+    "nodeunit": "^0.9.1",
+    "normalize.css": "^3.0.3",
+    "nuka-carousel": "^1.0.2",
+    "react": "^0.14.7",
+    "react-addons-css-transition-group": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "react-router": "^2.0.0",
+    "react-toolbox": "^0.14.1",
+    "redux": "^3.3.1",
+    "xhr2": "^0.1.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.4.2",
+    "postcss": "^5.0.16",
+    "postcss-loader": "^0.8.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "toolbox-loader": "0.0.3",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
