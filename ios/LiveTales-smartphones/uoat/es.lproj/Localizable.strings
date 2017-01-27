@@ -1,0 +1,63 @@
+/* No Localized Strings */
+/*View (main view)*/
+view.profile = "Perfil";
+view.logInSignUp = "Entrar";
+
+/*TaleModeLobbyView*/
+taleModeLobby.inviteFriends = "¡Para divertirte con tus amigos puedes entrar o registrarte!";
+taleModeLobby.loginSignup = "Entrar / Registrarse";
+
+/*GalleryView*/
+galleryView.noPhotos = "¡Para ver fotos, debes hacer fotos desde el modo libre o cuento!";
+
+/*GalleryManagerView*/
+galleryManagerView.removeAction = "Borrar fotos";
+galleryManagerView.photosRemoved = "¡Tus fotos han sido eliminadas!";
+galleryManagerView.saveAction = "Guardar fotos";
+galleryManagerView.photosSaved = "¡Tus fotos han sido movidas al albún del dispositivo!";
+
+/*InviteNotificationsManagerView*/
+inviteNotificationsManagerView.invite = "quiere invitarte a una sesion de %@";
+inviteNotificationsManagerView.tale = "lectura de cuentos";
+inviteNotificationsManagerView.costumes = "disfraces";
+
+/*NotificationsManagerView*/
+notificationsManagerView.friendRequest = "desea ser tu amigo/a.";
+
+/*System Messages*/
+error.title = "Error";
+error.databaseCfgFail = "¡No se puede conectar con la base de datos!";
+error.noInternetConnection = "¡No se puede conectar con la base de datos\nporque no tienes conexión a internet!";
+error.serverNotWorking = "¡El servidor no está funcionando!";
+error.roomFull = "¡Demasiado tarde!\n¡La habitación está completa!";
+error.unknown = "Error desconocido.";
+error.noGetFriendsFromDB = "¡No se pueden obtener amigos de la base de datos!";
+error.sendNotification = "¡Se ha producido un error mandando notificaciones!";
+error.loginUserWrong = "¡Usuario o clave erronea!";
+error.profileNickNameChanged = "¡El apodo no fue cambiado!";
+error.galleryRemovePhoto = "¡Lo siento, algunos ficheros no pueden ser borrados!";
+error.addFriendRequest = "Imposible enviar tu petición de amistad.";
+
+attention.title = "Atención";
+attention.noGetFriendsFromDB = "¡No puedes seleccionar amigos\nporque no tienes conexión a internet!";
+attention.networkWarning = "¡Debes tener conexión a internet!";
+attention.networkLost = "¡Se ha perdido la conexión a internet!";
+attention.noNetworkWithFreeMode = "¡Se ha perdido la conexión a internet!\n¡No puedes usar el modo libre!";
+attention.loginNeedsTwoFields = "Debes rellenar los dos campos.";
+attention.signupPasswordsMissMatch = "¡Las claves no coinciden!";
+attention.signupNeedsThreeFields = "Debes rellenar los tres campos.";
+attention.profileNeedField = "Debes rellenar este campo.";
+attention.addFriendNeedTwoFields = "You must fill two fields.";
+attention.addFriendSendRequestYourSelf = "You can't sent a request yourself!";
+
+notice.title = "Aviso";
+notice.networkWorksAgain = "¡La conexión a internet funciona de nuevo!";
+notice.profileCopyUniqueCode = "¡Código único copiado al portapapeles!";
+notice.profileNickNameChanged = "¡Apodo cambiado correctamente!";
+notice.addFriendFriendRequestSent = "¡Tu petición ha sido enviada!";
+
+
+/*take photo*/
+takePhoto.title = "Tomar foto";
+takePhoto.ok = "¡Foto guardada correctamente!";
+takePhoto.error = "¡Error mientras se guardaba la foto!";

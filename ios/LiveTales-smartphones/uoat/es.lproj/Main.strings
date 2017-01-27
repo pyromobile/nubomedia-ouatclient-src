@@ -1,0 +1,219 @@
+/* (No Commment) */
+"2BO-lY-8hz.normalTitle" = "Créditos";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "2Lw-A0-tbf"; */
+"2Lw-A0-tbf.text" = "Clave";
+
+/* Class = "UILabel"; text = "Log In"; ObjectID = "5Hf-nR-Kua"; */
+"5Hf-nR-Kua.text" = "Entrar";
+
+/* Class = "UIButton"; normalTitle = "Little Red Riding Hood"; ObjectID = "5MM-nB-dbu"; */
+"5MM-nB-dbu.normalTitle" = "Caperucita Roja";
+
+/* Class = "UIButton"; normalTitle = "Go!"; ObjectID = "9EB-PZ-DwP"; */
+"9EB-PZ-DwP.normalTitle" = "¡Vamos!";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "9r4-OA-mHg"; */
+"9r4-OA-mHg.text" = "Clave";
+
+/* Class = "UIButton"; normalTitle = "Add friend"; ObjectID = "A6d-Ti-lwA"; */
+"A6d-Ti-lwA.normalTitle" = "Añadir amigo";
+
+/* Class = "UILabel"; text = "Back to main menu"; ObjectID = "AlY-X6-tNr"; */
+"AlY-X6-tNr.text" = "Volver al menú principal";
+
+/* Class = "UILabel"; text = "Main Menu"; ObjectID = "BeV-02-rfg"; */
+"BeV-02-rfg.text" = "Menu Principal";
+
+/* Class = "UIButton"; normalTitle = "German"; ObjectID = "C5S-GQ-2Ef"; */
+"C5S-GQ-2Ef.normalTitle" = "Alemán";
+
+/* Class = "UILabel"; text = "Your friends have invited you to join a session!"; ObjectID = "CMP-EW-e1g"; */
+"CMP-EW-e1g.text" = "¡Tus amigos te han invitado a unirte a una sesión!";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "CYL-wy-LCa"; */
+"CYL-wy-LCa.normalTitle" = "Guardar";
+
+/* Class = "UILabel"; text = "GUI Designer"; ObjectID = "Dk9-Oh-Zf5"; */
+"Dk9-Oh-Zf5.text" = "Diseñador Interfaz";
+
+/* Class = "UILabel"; text = "Friend's secrect code"; ObjectID = "ECS-yl-0QX"; */
+"ECS-yl-0QX.text" = "Código secreto de tu amigo";
+
+/* Class = "UIButton"; normalTitle = "Logout!"; ObjectID = "Evh-Bz-3xe"; */
+"Evh-Bz-3xe.normalTitle" = "¡Salir!";
+
+/* Class = "UILabel"; text = "Designer"; ObjectID = "Frp-Ts-cSA"; */
+"Frp-Ts-cSA.text" = "Diseñador";
+
+/* Class = "UIButton"; normalTitle = "Remove as friends"; ObjectID = "IIE-YZ-8M3"; */
+"IIE-YZ-8M3.normalTitle" = "Eliminar amistad";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "J94-N6-7rR"; */
+"J94-N6-7rR.text" = "Idioma";
+
+/* Class = "UILabel"; text = "Edit friends list"; ObjectID = "KYH-zk-Pen"; */
+"KYH-zk-Pen.text" = "Editar lista de amigos";
+
+/* (No Commment) */
+"NYx-aq-y8x.normalTitle" = "Colecciones";
+
+/* Class = "UILabel"; text = "Room notifications"; ObjectID = "Nih-7Z-rmM"; */
+"Nih-7Z-rmM.text" = "Notificaciones de habitación";
+
+/* Class = "UILabel"; text = "Repeat Password"; ObjectID = "Pvm-zr-UG2"; */
+"Pvm-zr-UG2.text" = "Repetir clave";
+
+/* Class = "UILabel"; text = "Gallery"; ObjectID = "RJF-23-Yha"; */
+"RJF-23-Yha.text" = "Galería";
+
+/* Class = "UIButton"; normalTitle = "Tale Mode"; ObjectID = "SCm-uN-mG1"; */
+"SCm-uN-mG1.normalTitle" = "Modo Cuento";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "SVF-c1-xFv"; */
+"SVF-c1-xFv.normalTitle" = "Inglés";
+
+/* Class = "UIButton"; normalTitle = "Free Mode"; ObjectID = "TER-ev-Y8T"; */
+"TER-ev-Y8T.normalTitle" = "Modo Libre";
+
+/* Class = "UILabel"; text = "Library"; ObjectID = "UOj-V4-jsH"; */
+"UOj-V4-jsH.text" = "Biblioteca";
+
+/* Class = "UILabel"; text = "What do you want to do?"; ObjectID = "USz-bK-aAh"; */
+"USz-bK-aAh.text" = "¿Qué quieres hacer?";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "UcE-cO-gKC"; */
+"UcE-cO-gKC.normalTitle" = "Borrar";
+
+/* Class = "UILabel"; text = "Programmer"; ObjectID = "VBO-nF-kzB"; */
+"VBO-nF-kzB.text" = "Programador";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "VFd-bL-UDa"; */
+"VFd-bL-UDa.text" = "Usuario";
+
+/* (No Commment) */
+"VdF-vF-3J9.normalTitle" = "Amigos";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "VrV-bv-nRQ"; */
+"VrV-bv-nRQ.normalTitle" = "Editar";
+
+/* Class = "UILabel"; text = "Your nick"; ObjectID = "WBc-uD-rGx"; */
+"WBc-uD-rGx.text" = "Tu apodo";
+
+/* Class = "UIButton"; normalTitle = "Sing Up"; ObjectID = "WoR-AO-SXf"; */
+"WoR-AO-SXf.normalTitle" = "Registrarse";
+
+/* Class = "UILabel"; text = "Sound"; ObjectID = "Wug-3N-ro4"; */
+"Wug-3N-ro4.text" = "Sonidos";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "X0u-3P-V5c"; */
+"X0u-3P-V5c.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "Y3I-ZK-Wr3"; */
+"Y3I-ZK-Wr3.text" = "Notificaciones";
+
+/* Class = "UIButton"; normalTitle = "Begin!"; ObjectID = "auj-tN-FyY"; */
+"auj-tN-FyY.normalTitle" = "¡Empezar!";
+
+/* Class = "UILabel"; text = "The End"; ObjectID = "b0P-p1-T6s"; */
+"b0P-p1-T6s.text" = "Fin";
+
+/* Class = "UIButton"; normalTitle = "Repeat tale"; ObjectID = "bKT-ML-UCC"; */
+"bKT-ML-UCC.normalTitle" = "Repetir cuento";
+
+/* Class = "UILabel"; text = "Gallery Manager"; ObjectID = "bif-LD-sC1"; */
+"bif-LD-sC1.text" = "Gestor de Imágenes";
+
+/* Class = "UILabel"; text = "Exit?"; ObjectID = "c0F-nH-dNy"; */
+"c0F-nH-dNy.text" = "¿Salir?";
+
+/* Class = "UILabel"; text = "Library"; ObjectID = "dB1-vR-qrD"; */
+"dB1-vR-qrD.text" = "Biblioteca";
+
+/* Class = "UILabel"; text = "Font Size"; ObjectID = "dlE-KG-w9Z"; */
+"dlE-KG-w9Z.text" = "Tamaño Fuente";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "eje-fd-KV8"; */
+"eje-fd-KV8.text" = "Usuario";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "eo1-VA-cVe"; */
+"eo1-VA-cVe.normalTitle" = "Cancelar";
+
+/* Class = "UILabel"; text = "Choose a tale"; ObjectID = "g4t-PB-o9w"; */
+"g4t-PB-o9w.text" = "Elige un cuento";
+
+/* Class = "UIButton"; normalTitle = "Goldilocks"; ObjectID = "gdq-lY-kK7"; */
+"gdq-lY-kK7.normalTitle" = "Ricitos de Oro";
+
+/* Class = "UILabel"; text = "CHOOSE LANGUAGE"; ObjectID = "h0K-gX-NUW"; */
+"h0K-gX-NUW.text" = "ELIGE IDIOMA";
+
+/* Class = "UILabel"; text = "Choose your friends"; ObjectID = "hCm-cf-vC7"; */
+"hCm-cf-vC7.text" = "Elige a tus amigos";
+
+/* Class = "UIButton"; normalTitle = "Back to Main menu"; ObjectID = "hFG-NZ-Kuf"; */
+"hFG-NZ-Kuf.normalTitle" = "Volver al menu principal";
+
+/* Class = "UIButton"; normalTitle = "Spanish"; ObjectID = "i8o-Ic-j6B"; */
+"i8o-Ic-j6B.normalTitle" = "Español";
+
+/* Class = "UILabel"; text = "Hi, "; ObjectID = "j9K-XW-zH6"; */
+"j9K-XW-zH6.text" = "Hola, ";
+
+/* Class = "UIButton"; normalTitle = "Notifications"; ObjectID = "kuc-xg-lAC"; */
+"kuc-xg-lAC.normalTitle" = "Notificationes";
+
+/* Class = "UILabel"; text = "CHOOSE A TALE"; ObjectID = "lhc-uB-BFO"; */
+"lhc-uB-BFO.text" = "ELIGE UN CUENTO";
+
+/* Class = "UILabel"; text = "User profile"; ObjectID = "mIC-LD-6TS"; */
+"mIC-LD-6TS.text" = "Perfil usuario";
+
+/* Class = "UIButton"; normalTitle = "The Three Little Pigs"; ObjectID = "mPv-sr-pO0"; */
+"mPv-sr-pO0.normalTitle" = "Los Tres Cerditos";
+
+/* Class = "UIButton"; normalTitle = "Edit list"; ObjectID = "mkJ-Wb-R1i"; */
+"mkJ-Wb-R1i.normalTitle" = "Editar lista";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "nBl-FP-B8f"; */
+"nBl-FP-B8f.normalTitle" = "Entrar";
+
+/* Class = "UILabel"; text = "CHOOSE ACCESORIES"; ObjectID = "nOA-oC-4fY"; */
+"nOA-oC-4fY.text" = "ELIGE ACCESORIOS";
+
+/* Class = "UILabel"; text = "Your friends"; ObjectID = "nVO-Jj-NHW"; */
+"nVO-Jj-NHW.text" = "Tus amigos";
+
+/* Class = "UILabel"; text = "Add friend"; ObjectID = "phc-rh-X6S"; */
+"phc-rh-X6S.text" = "Añadir amigo";
+
+/* Class = "UILabel"; text = "Credits"; ObjectID = "u2r-Fx-dIg"; */
+"u2r-Fx-dIg.text" = "Créditos";
+
+/* Class = "UIButton"; normalTitle = "Choose other tale"; ObjectID = "u7e-YP-GQd"; */
+"u7e-YP-GQd.normalTitle" = "Elige otro cuento";
+
+/* Class = "UILabel"; text = "Friend's nick"; ObjectID = "u7n-wr-rX6"; */
+"u7n-wr-rX6.text" = "Nick de tu amigo";
+
+/* (No Commment) */
+"vda-52-41p.normalTitle" = "Configuración";
+
+/* (No Commment) */
+"wGg-9V-IXa.normalTitle" = "Registrarse";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "x8z-7k-EI3"; */
+"x8z-7k-EI3.title" = "Volver";
+
+/* Class = "UILabel"; text = "Art Designer"; ObjectID = "xYq-TA-gSN"; */
+"xYq-TA-gSN.text" = "Diseñadora artística";
+
+/* (No Commment) */
+"xwI-sC-5pj.title" = "Selecciona Idioma";
+
+/* Class = "UILabel"; text = "Your secrect code"; ObjectID = "yUB-cE-nwv"; */
+"yUB-cE-nwv.text" = "Tu código secreto";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "zy6-vn-ckg"; */
+"zy6-vn-ckg.text" = "Registrarse";
+

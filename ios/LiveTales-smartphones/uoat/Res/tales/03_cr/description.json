@@ -1,0 +1,17 @@
+{
+  "id":"03_cr",
+  "title":"Little Red Riding Hood",
+  "isBook":true,
+  "cover":"",
+  "langs":{
+    "de":{
+      "title":"Rotk‰ppchen"
+    },
+    "en":{
+      "title":"Little Red Riding Hood"
+    },
+    "es":{
+      "title":"Caperucita Roja"
+    }
+  }
+}

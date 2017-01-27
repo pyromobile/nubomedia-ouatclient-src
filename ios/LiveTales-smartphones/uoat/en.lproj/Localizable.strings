@@ -1,0 +1,63 @@
+/* No Localized Strings */
+/*View (main view)*/
+view.profile = "Profile";
+view.logInSignUp = "Login";
+
+/*TaleModeLobbyView*/
+taleModeLobby.inviteFriends = "To enjoy with your friends you can login or signup!";
+taleModeLobby.loginSignup = "Log In / Sign Up";
+
+/*GalleryView*/
+galleryView.noPhotos = "To see photos, you must take photos from tale or free mode!";
+
+/*GalleryManagerView*/
+galleryManagerView.removeAction = "Remove photos";
+galleryManagerView.photosRemoved = "Your photos have been removed!";
+galleryManagerView.saveAction = "Save photos";
+galleryManagerView.photosSaved = "Your photos have been move to album device!";
+
+/*InviteNotificationsManagerView*/
+inviteNotificationsManagerView.invite = "wants invite to you a %@ session";
+inviteNotificationsManagerView.tale = "tale reading";
+inviteNotificationsManagerView.costumes = "costumes";
+
+/*NotificationsManagerView*/
+notificationsManagerView.friendRequest = "wanna to be your friend.";
+
+/*System Messages*/
+error.title = "Error";
+error.databaseCfgFail = "Can\'t get KMS config from database!";
+error.noInternetConnection = "You can\'t get KMS config\nbecause you haven\'t internet connection!";
+error.serverNotWorking = "Server is not working!";
+error.roomFull = "Too late! The room is full!";
+error.unknown = "Unknown error";
+error.noGetFriendsFromDB = "Can\'t get friends from database!";
+error.sendNotification = "Error while sending notifications!";
+error.loginUserWrong = "User or password wrong!";
+error.profileNickNameChanged = "Nick name wasn't changed!";
+error.galleryRemovePhoto = "Sorry, but some files couldn't be removed!";
+error.addFriendRequest = "Imposible send your request.";
+
+attention.title = "Attention";
+attention.noGetFriendsFromDB = "You can\'t choose friends\nbecause you haven\'t internet connection!";
+attention.networkWarning = "You must have internet connection!";
+attention.networkLost = "Internet connection lost!";
+attention.noNetworkWithFreeMode = "Internet connection lost!\nYou can\'t use free mode!";
+attention.loginNeedsTwoFields = "You must fill two fields.";
+attention.signupPasswordsMissMatch = "The passwords missmatch!";
+attention.signupNeedsThreeFields = "You must fill three fields.";
+attention.profileNeedField = "You must fill this field.";
+attention.addFriendNeedTwoFields = "You must fill two fields.";
+attention.addFriendSendRequestYourSelf = "You can't sent a request yourself!";
+
+notice.title = "Notice";
+notice.networkWorksAgain = "Internet connection works again!";
+notice.profileCopyUniqueCode = "Unique code was copied to clipboard!";
+notice.profileNickNameChanged = "Nick name was changed correctly!";
+notice.addFriendFriendRequestSent = "You request has been sent!";
+
+
+/*take photo*/
+takePhoto.title = "Take photo";
+takePhoto.ok = "Photo saved ok!";
+takePhoto.error = "Error while saving photo!";

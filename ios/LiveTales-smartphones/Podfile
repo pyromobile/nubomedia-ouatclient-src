@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'livetales' do
+	xcodeproj 'uoat'
+	pod 'KurentoToolbox', :path => "/Users/pyrouser/Documents/TutorialesIOSJorge/KIOS2_20160909/Kurento-iOS"
+end
+
