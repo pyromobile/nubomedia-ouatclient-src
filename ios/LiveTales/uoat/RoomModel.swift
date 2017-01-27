@@ -395,26 +395,35 @@ class RoomModel:NSObject, RoomManagerDelegate, NBMRendererDelegate
     
     private func addRendererToVideoViewFree( renderer:NBMRenderer, id:String )
     {
-        if( self.video2View!.subviews.count == 0 )
+        if( !self.viewsToPeerId.contains( id ) )
         {
-            renderer.rendererView.frame = CGRect( x:0, y:0, width:self.video2View!.frame.width, height:self.video2View!.frame.height )
-            self.video2View!.addSubview( renderer.rendererView )
-            
-            let userIdLabel:UILabel = self.createUserIdLabel( id )
-            self.video2View!.addSubview( userIdLabel );
-        }
-        else if( self.video3View!.subviews.count == 0 )
-        {
-            renderer.rendererView.frame = CGRect( x:0, y:0, width:self.video3View!.frame.width, height:self.video3View!.frame.height )
-            self.video3View!.addSubview( renderer.rendererView )
-            
-        }
-        else if( self.video4View!.subviews.count == 0 )
-        {
-            renderer.rendererView.frame = CGRect( x:0, y:0, width:self.video4View!.frame.width, height:self.video4View!.frame.height )
-            self.video4View!.addSubview( renderer.rendererView )
-            
-        }
+            self.viewsToPeerId.append( id );
+            if( self.video2View!.subviews.count == 0 )
+            {
+                renderer.rendererView.frame = CGRect( x:0, y:0, width:self.video2View!.frame.width, height:self.video2View!.frame.height )
+                self.video2View!.addSubview( renderer.rendererView )
+                
+                let userIdLabel:UILabel = self.createUserIdLabel( id )
+                self.video2View!.addSubview( userIdLabel );
+            }
+            else if( self.video3View!.subviews.count == 0 )
+            {
+                renderer.rendererView.frame = CGRect( x:0, y:0, width:self.video3View!.frame.width, height:self.video3View!.frame.height )
+                self.video3View!.addSubview( renderer.rendererView )
+                
+                let userIdLabel:UILabel = self.createUserIdLabel( id )
+                self.video3View!.addSubview( userIdLabel );
+                
+            }
+            else if( self.video4View!.subviews.count == 0 )
+            {
+                renderer.rendererView.frame = CGRect( x:0, y:0, width:self.video4View!.frame.width, height:self.video4View!.frame.height )
+                self.video4View!.addSubview( renderer.rendererView )
+                
+                let userIdLabel:UILabel = self.createUserIdLabel( id )
+                self.video4View!.addSubview( userIdLabel );
+            }
+        }        
 /*
         else if( self.video5View!.subviews.count == 0 )
         {
@@ -518,5 +527,6 @@ class RoomModel:NSObject, RoomManagerDelegate, NBMRendererDelegate
     private var roomManager:RoomManager? = nil
     private var mediaConfig:NBMMediaConfiguration? = nil
     private var peerIdToRenderer:[String:NBMRenderer] = [String:NBMRenderer]()
+    private var viewsToPeerId:[String] = [String]()
     
 }
