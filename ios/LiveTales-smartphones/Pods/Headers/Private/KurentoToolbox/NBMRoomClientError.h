@@ -1,1 +1,0 @@
-link ../../../KurentoToolbox/Classes/Room/Internals/NBMRoomClientError.h

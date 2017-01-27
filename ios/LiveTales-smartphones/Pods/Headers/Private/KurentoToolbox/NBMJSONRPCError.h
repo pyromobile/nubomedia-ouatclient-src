@@ -1,1 +1,0 @@
-link ../../../KurentoToolbox/Classes/JSON-RPC/Internals/NBMJSONRPCError.h

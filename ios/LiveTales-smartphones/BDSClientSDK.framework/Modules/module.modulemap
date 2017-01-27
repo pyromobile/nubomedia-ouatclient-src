@@ -1,6 +1,0 @@
-framework module BDSClientSDK {
-  umbrella header "BDSClientSDK.h"
-
-  export *
-  module * { export * }
-}
